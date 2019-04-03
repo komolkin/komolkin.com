@@ -22,29 +22,39 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, .4);
 }
 
-.logo {
+.indicator {
   fill: black;
   position: fixed;
-  top: 38px;
-  left: 38px;
-  width: 100px;
-  height: 100px;
-  opacity: .6;
-  -webkit-animation: spin 15s linear infinite;
-  -moz-animation: spin 15s linear infinite;
-  animation: spin 15s linear infinite;
+  bottom: 40px;
+  right: 40px;
+  width: 10px;
+  height: 10px;
+  -webkit-animation: scroll 1s ease-in-out infinite;
+  -moz-animation: scroll 1s ease-in-out infinite;
+  animation: scroll 1s ease-in-out infinite;
 }
 
-@-moz-keyframes spin {
+@-moz-keyframes scroll {
+  0% {
+    -moz-transform: translateY(0); }
+  50% {
+    -moz-transform: translateY(100px); }
   100% {
-    -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin {
+    -moz-transform: translateY(0); } }
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateY(0); }
+  50% {
+    -moz-transform: translateY(100px); }
   100% {
-    -webkit-transform: rotate(360deg); } }
-@keyframes spin {
+    -webkit-transform: translateY(0); } }
+@keyframes scroll {
+  0% {
+    transform: translateY(0); }
+  50% {
+    -moz-transform: translateY(100px); }
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: translateY(0); } }
 
 form {
   margin: 36px 0 40px;
