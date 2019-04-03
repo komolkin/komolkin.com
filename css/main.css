@@ -60,6 +60,7 @@ footer {
 .header h3 {
   margin: auto; /* Important */ 
   text-align: center;
+  font-weight: 400;
 }
 
 p, ul, ol, blockquote {
