@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background-color: #000000;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   padding-bottom: 20px;
@@ -45,30 +46,19 @@ a:hover {
   }
 }
 
-form {
-  margin: 36px 0 40px;
-}
-
 footer {
   text-align: center;
 }
 
-.header h1 {
-  font-family: 'CerebriSans-Bold', sans-serif;
-  text-align: center;
-  font-size: 56px;
-  font-weight: 800;
-  margin-top: 40px;
+.header {
+  display: flex; 
+  width: 100%; 
+  height: 90vh; 
+  margin: auto;
 }
 
 .header h3 {
-  font-family: 'CerebriSans-Bold', sans-serif;
-  text-align: center;
-  line-height: 40px;
-  color: rgba(0, 0, 0, .6);
-}
-
-.header p {
+  margin: auto; /* Important */ 
   text-align: center;
 }
 
@@ -111,39 +101,6 @@ p, ul, ol, blockquote {
   transform: scale(1.035);
 }
 
-.products .item .price {
-  position: absolute;
-  margin: 0;
-  top: 0;
-  right: 0;
-  padding: 18px 24px;
-  float: right;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: left;
-}
-
-.showme {
-  opacity: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.95);
-  font-size: 18px;
-  border-radius: 10px;
-  -webkit-transition: -webkit-all .2s ease-out;
-  -moz-transition: -moz-all .2s ease-out;
-  transition: all .2s ease-out;
-}
-
-.showme b {
-  margin-bottom: 2px;
-}
-
 .products .item:hover .showme {
   opacity: 1;
 }
@@ -164,7 +121,7 @@ footer h3 {
   padding-bottom: 10px;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .header {
     background-position: -140px 380px;
   }
@@ -191,4 +148,4 @@ footer h3 {
   footer h3 {
     font-size: 1.6rem !important;
   }
-}
+} */
