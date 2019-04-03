@@ -2,26 +2,11 @@
 @import url("typography.css");
 @import url("animation.css");
 
-@font-face {
-  font-family: 'CerebriSans-Bold';
-  src:  url('CerebriSans-Bold.woff2') format('woff2'),
-        url('CerebriSans-Bold.woff') format('woff'),
-        url('CerebriSans-Bold.ttf') format('truetype'),
-        url('CerebriSans-Bold.svg') format('svg');
-}
-
-@font-face {
-  font-family: 'CerebriSans-Regular';
-  src:  url('CerebriSans-Regular.woff2') format('woff2'),
-        url('CerebriSans-Regular.woff') format('woff'),
-        url('CerebriSans-Regular.ttf') format('truetype'),
-        url('CerebriSans-Regular.svg') format('svg');
-}
-
 body {
   margin: 0;
   background-color: #ffffff;
-  font-family: 'CerebriSans-Regular', sans-serif;
+  ont-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
   padding-bottom: 20px;
 }
 
