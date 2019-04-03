@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #000000;
   ont-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   padding-bottom: 20px;
@@ -23,38 +23,27 @@ a:hover {
 }
 
 .indicator {
-  fill: black;
+  background: #ffffff;
+  border-radius: 4px;
   position: fixed;
   bottom: 40px;
-  right: 40px;
-  width: 10px;
-  height: 10px;
-  -webkit-animation: scroll 1s ease-in-out infinite;
-  -moz-animation: scroll 1s ease-in-out infinite;
-  animation: scroll 1s ease-in-out infinite;
+  left: 50%;
+  margin-left: -4px;
+  width: 8px;
+  height: 8px;
+  -webkit-animation: scroll 4s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  -moz-animation: scroll 4s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  animation: scroll 4s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
 }
 
-@-moz-keyframes scroll {
-  0% {
-    -moz-transform: translateY(0); }
-  50% {
-    -moz-transform: translateY(100px); }
-  100% {
-    -moz-transform: translateY(0); } }
-@-webkit-keyframes scroll {
-  0% {
-    -webkit-transform: translateY(0); }
-  50% {
-    -moz-transform: translateY(100px); }
-  100% {
-    -webkit-transform: translateY(0); } }
 @keyframes scroll {
-  0% {
-    transform: translateY(0); }
+  0%, 100% {
+    bottom: 40px;
+  }
   50% {
-    -moz-transform: translateY(100px); }
-  100% {
-    transform: translateY(0); } }
+    bottom: 80px;
+  }
+}
 
 form {
   margin: 36px 0 40px;
