@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background-color: #000000;
-  ont-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   padding-bottom: 20px;
 }
@@ -49,63 +49,8 @@ form {
   margin: 36px 0 40px;
 }
 
-input {
-  font-family: 'CerebriSans-Bold', sans-serif;
-	width: 280px;
-	padding: 15px 20px;
-	background: #fff;
-  border: none;
-	color: #000;
-  font-weight: 600;
-	border-radius: 50px;
-	font-size: 1rem;
-  transition: all 0.2s ease-out;
-}
-
-input:focus {
-	background: #fff;
-  outline: none;
-  width: 300px;
-}
-
-button {
-  background: transparent;
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  width: 68px;
-  margin-left: -68px;
-  cursor: pointer;
-}
-
 footer {
   text-align: center;
-}
-
-.suggest {
-  font-family: 'CerebriSans-Bold', sans-serif;
-	width: 280px;
-	padding: 15px 18px;
-  margin-bottom: 40px;
-  background: #000;
-  color: #fff;
-  border: none;
-  font-weight: 600;
-	border-radius: 50px;
-  text-align: center;
-	font-size: 1rem;
-  transition: all 0.2s ease;
-  display: inline-block;
-  -webkit-transition: -webkit-all .2s ease-out;
-  -moz-transition: -moz-all .2s ease-out;
-  transition: all .2s ease-out;
-}
-
-.suggest:hover {
-  -ms-transform: scale(2, 3);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.035);
-  border: none;
 }
 
 .header h1 {
