@@ -63,6 +63,15 @@ footer {
   font-weight: 400;
 }
 
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub { 
+  top: 0.4em; 
+}
+
 p, ul, ol, blockquote {
   color: rgba(255, 255, 255, 0.6);
 }
