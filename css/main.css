@@ -25,13 +25,13 @@ a:hover {
 
 .indicator {
   background: #ffffff;
-  border-radius: 3px;
+  border-radius: 2px;
   position: fixed;
   bottom: 40px;
   left: 50%;
-  margin-left: -3px;
-  width: 6px;
-  height: 6px;
+  margin-left: -2px;
+  width: 4px;
+  height: 4px;
   -webkit-animation: scroll 4s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
   -moz-animation: scroll 4s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
   animation: scroll 4s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
