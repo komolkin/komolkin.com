@@ -20,7 +20,7 @@
 
 body {
   margin: 0;
-  background-color: #141414;
+  background-color: #ffffff;
   font-family: 'CerebriSans-Regular', sans-serif;
   padding-bottom: 20px;
 }
@@ -115,7 +115,6 @@ footer {
   -webkit-transition: -webkit-all .2s ease-out;
   -moz-transition: -moz-all .2s ease-out;
   transition: all .2s ease-out;
-  -webkit-transform: translateZ(0px);
 }
 
 .suggest:hover {
@@ -174,7 +173,6 @@ p, ul, ol, blockquote {
   -webkit-transition: -webkit-all .2s ease-out;
   -moz-transition: -moz-all .2s ease-out;
   transition: all .2s ease-out;
-  -webkit-transform: translateZ(0px);
 }
 
 .products .item:hover {
