@@ -64,7 +64,7 @@ html {
 	/* animation: bg-color 50s linear infinite;
 	-webkit-animation: bg-color 50s linear infinite;
 	-moz-animation: bg-color 50s linear infinite; */
-	background: black;
+	background: white;
 	padding: 0;
 	margin: 0;
 }
@@ -91,7 +91,7 @@ body, a {
 	/* animation: text-color 50s linear infinite;
 	-webkit-animation: text-color 50s linear infinite;
 	-moz-animation: text-color 50s linear infinite; */
-	color: rgba(255, 255, 255, .9);
+	color: rgba(0, 0, 0, .9);
 }
 
 *,
@@ -110,11 +110,11 @@ a {
 	pointer-events: auto !important;
 
 	padding-bottom: 1px;
-	border-bottom: 2px solid rgba(255, 255, 255, .2);
+	border-bottom: 2px solid rgba(0, 0, 0, .1);
 }
 
 a:hover {
-	border-bottom: 2px solid rgba(255, 255, 255, .3);
+	border-bottom: 2px solid rgba(0, 0, 0, .2);
 }
 
 a:hover .canvas {
